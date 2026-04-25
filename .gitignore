@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# local env/secrets
+.env
+.env.*
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# build/cache output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/

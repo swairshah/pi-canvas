@@ -1,0 +1,34 @@
+{
+  "name": "@swairshah/pi-canvas",
+  "version": "0.1.0",
+  "description": "Use any Tailscale-connected phone/tablet/browser as a drawing or photo input surface for Pi.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "canvas",
+    "drawing",
+    "photo",
+    "tailscale"
+  ],
+  "files": [
+    "index.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": ">=0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
