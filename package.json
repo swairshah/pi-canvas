@@ -4,6 +4,9 @@
   "description": "Use any Tailscale-connected phone/tablet/browser as a drawing or photo input surface for Pi.",
   "type": "module",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "pi-package",
     "pi-extension",
